@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A943C30A197E012600E29DF2 /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = A943C309197E012600E29DF2 /* TestObj.m */; };
+		A9684916197F4D66004617B3 /* UICopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9684915197F4D66004617B3 /* UICopyLabel.m */; };
+		A9684919197F9B22004617B3 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9684918197F9B22004617B3 /* ListViewController.m */; };
 		A9B1B928197CE3D300BB2239 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B1B927197CE3D300BB2239 /* Foundation.framework */; };
 		A9B1B92A197CE3D300BB2239 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B1B929197CE3D300BB2239 /* CoreGraphics.framework */; };
 		A9B1B92C197CE3D300BB2239 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B1B92B197CE3D300BB2239 /* UIKit.framework */; };
@@ -21,6 +24,9 @@
 		A9B1B949197CE3D300BB2239 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B1B92B197CE3D300BB2239 /* UIKit.framework */; };
 		A9B1B951197CE3D300BB2239 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9B1B94F197CE3D300BB2239 /* InfoPlist.strings */; };
 		A9B1B953197CE3D300BB2239 /* VinTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B1B952197CE3D300BB2239 /* VinTestTests.m */; };
+		A9C70054199E0EA4002BFD30 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C70053199E0EA4002BFD30 /* a.png */; };
+		A9C70056199E0EAF002BFD30 /* html in Resources */ = {isa = PBXBuildFile; fileRef = A9C70055199E0EAF002BFD30 /* html */; };
+		A9C7FF80199DD5A3002BFD30 /* WebShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C7FF7F199DD5A3002BFD30 /* WebShowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A943C308197E012600E29DF2 /* TestObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObj.h; sourceTree = "<group>"; };
+		A943C309197E012600E29DF2 /* TestObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObj.m; sourceTree = "<group>"; };
+		A9684914197F4D66004617B3 /* UICopyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICopyLabel.h; sourceTree = "<group>"; };
+		A9684915197F4D66004617B3 /* UICopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICopyLabel.m; sourceTree = "<group>"; };
+		A9684917197F9B22004617B3 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		A9684918197F9B22004617B3 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		A9B1B924197CE3D300BB2239 /* VinTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B1B927197CE3D300BB2239 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9B1B929197CE3D300BB2239 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +65,10 @@
 		A9B1B94E197CE3D300BB2239 /* VinTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VinTestTests-Info.plist"; sourceTree = "<group>"; };
 		A9B1B950197CE3D300BB2239 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A9B1B952197CE3D300BB2239 /* VinTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VinTestTests.m; sourceTree = "<group>"; };
+		A9C70053199E0EA4002BFD30 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		A9C70055199E0EAF002BFD30 /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html; path = VinTest/html; sourceTree = SOURCE_ROOT; };
+		A9C7FF7E199DD5A3002BFD30 /* WebShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebShowViewController.h; sourceTree = "<group>"; };
+		A9C7FF7F199DD5A3002BFD30 /* WebShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebShowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +128,20 @@
 		A9B1B92D197CE3D300BB2239 /* VinTest */ = {
 			isa = PBXGroup;
 			children = (
+				A9C70052199E0EA4002BFD30 /* Sorece */,
 				A9B1B936197CE3D300BB2239 /* AppDelegate.h */,
 				A9B1B937197CE3D300BB2239 /* AppDelegate.m */,
 				A9B1B939197CE3D300BB2239 /* Main.storyboard */,
 				A9B1B93C197CE3D300BB2239 /* ViewController.h */,
 				A9B1B93D197CE3D300BB2239 /* ViewController.m */,
+				A9684917197F9B22004617B3 /* ListViewController.h */,
+				A9684918197F9B22004617B3 /* ListViewController.m */,
+				A9C7FF7E199DD5A3002BFD30 /* WebShowViewController.h */,
+				A9C7FF7F199DD5A3002BFD30 /* WebShowViewController.m */,
+				A943C308197E012600E29DF2 /* TestObj.h */,
+				A943C309197E012600E29DF2 /* TestObj.m */,
+				A9684914197F4D66004617B3 /* UICopyLabel.h */,
+				A9684915197F4D66004617B3 /* UICopyLabel.m */,
 				A9B1B93F197CE3D300BB2239 /* Images.xcassets */,
 				A9B1B92E197CE3D300BB2239 /* Supporting Files */,
 			);
@@ -150,6 +175,15 @@
 				A9B1B94F197CE3D300BB2239 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9C70052199E0EA4002BFD30 /* Sorece */ = {
+			isa = PBXGroup;
+			children = (
+				A9C70055199E0EAF002BFD30 /* html */,
+				A9C70053199E0EA4002BFD30 /* a.png */,
+			);
+			path = Sorece;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9B1B940197CE3D300BB2239 /* Images.xcassets in Resources */,
+				A9C70054199E0EA4002BFD30 /* a.png in Resources */,
 				A9B1B932197CE3D300BB2239 /* InfoPlist.strings in Resources */,
 				A9B1B93B197CE3D300BB2239 /* Main.storyboard in Resources */,
+				A9C70056199E0EAF002BFD30 /* html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +287,11 @@
 			files = (
 				A9B1B93E197CE3D300BB2239 /* ViewController.m in Sources */,
 				A9B1B938197CE3D300BB2239 /* AppDelegate.m in Sources */,
+				A9684919197F9B22004617B3 /* ListViewController.m in Sources */,
+				A9C7FF80199DD5A3002BFD30 /* WebShowViewController.m in Sources */,
+				A9684916197F4D66004617B3 /* UICopyLabel.m in Sources */,
 				A9B1B934197CE3D300BB2239 /* main.m in Sources */,
+				A943C30A197E012600E29DF2 /* TestObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,10 +416,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VinTest/VinTest-Prefix.pch";
 				INFOPLIST_FILE = "VinTest/VinTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +432,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VinTest/VinTest-Prefix.pch";
 				INFOPLIST_FILE = "VinTest/VinTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +502,7 @@
 				A9B1B958197CE3D300BB2239 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9B1B959197CE3D300BB2239 /* Build configuration list for PBXNativeTarget "VinTestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +511,7 @@
 				A9B1B95B197CE3D300BB2239 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

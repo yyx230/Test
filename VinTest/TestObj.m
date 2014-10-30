@@ -10,4 +10,17 @@
 
 @implementation TestObj
 
++ (void)logToLimit:(int)limit WithBlock:(int (^) (int, int))block {
+    for (int i = 0; i < limit; i ++) {
+        sleep(2);
+        int result = block(i, 2);
+        NSLog(@"====== %d ========", result);
+    }
+}
+
++ (void)logAsyncWithBloc:(void (^) (BOOL))result {
+    NSLog(@"do async");
+    result(YES);
+}
+
 @end

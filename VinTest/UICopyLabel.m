@@ -10,22 +10,49 @@
 
 @implementation UICopyLabel
 
-- (id)initWithFrame:(CGRect)frame
-{
+- (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
+        [self attachTapHandler];
     }
     return self;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    [self attachTapHandler];
 }
-*/
+
+- (void)attachTapHandler {
+    self.userInteractionEnabled = YES;  //用户交互的总开关
+    UITapGestureRecognizer *touch = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
+    touch.numberOfTapsRequired = 2;
+    [self addGestureRecognizer:touch];
+}
+
+- (void)handleTap:(UIGestureRecognizer *)recognizer {
+    [self becomeFirstResponder];
+    UIMenuController *menu = [UIMenuController sharedMenuController];
+    [menu setTargetRect:self.frame inView:self.superview];
+    [menu setMenuVisible:YES animated:YES];
+}
+
+- (BOOL)canBecomeFirstResponder {
+    return YES;
+}
+
+- (BOOL)canPerformAction:(SEL)action withSender:(id)sender {
+    return (action == @selector(copy:) || action == @selector(paste:));
+}
+
+- (void)copy:(id)sender {
+    UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
+    pasteboard.string = self.text;
+}
+
+- (void)paste:(id)sender {
+    UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
+    self.text = pasteboard.string;
+}
 
 @end

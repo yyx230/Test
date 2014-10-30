@@ -10,4 +10,8 @@
 
 @interface TestObj : NSObject
 
++ (void)logToLimit:(int)limit WithBlock:(int (^) (int, int))block;
+
++ (void)logAsyncWithBloc:(void (^) (BOOL))result;
+
 @end
